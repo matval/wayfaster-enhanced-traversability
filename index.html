@@ -114,7 +114,7 @@ https://templatemo.com/tm-532-next-level
 
       <div class="tm-welcome-row">
         <p align="center">
-          <iframe width="640" height="360" src="https://www.youtube.com/embed/XgdYuhQc4GQ"
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/Eafzz8aRavI?si=lvvUiYwZd_TfP0YK"
           title="YouTube video player" frameborder="1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
@@ -124,7 +124,7 @@ https://templatemo.com/tm-532-next-level
       <div class="row tm-welcome-row">
         <div class="col-12 tm-page-cols-container">
           <div class="tm-page-col-left">
-            <img src="img/WayFAST.jpg" alt="" style="width:100%">
+            <img src="img/main_image.jpg" alt="" style="width:100%">
           </div>
           <div class="tm-page-col-right tm-welcome-box">
             <p class="tm-welcome-text">
@@ -147,18 +147,11 @@ https://templatemo.com/tm-532-next-level
 
       <div class="tm-page-col-center">
         <h2 class="tm-text-secondary tm-pt-8 tm-mb-5">
-          We tested WayFAST in a variety of environments
+          WayFASTER is able to safely navigate a robot in natural environments while keeping track of the untraversable areas for longer.
         </h2>
-        <div class="row">
-          <div class="col-md-3 tm-home-section-2-left">
-            <img src="img/wayfast1.gif" alt="" style="border-style: solid; border-color: black; border-width: thin; height:100%">
-          </div>
-          <div class="col-md-3 tm-home-section-2-center">
-            <img src="img/wayfast3.gif" alt="" style="border-style: solid; border-color: black; border-width: thin; height:100%">
-          </div>
-          <div class="col-md-3 tm-home-section-2-right">
-            <img src="img/wayfast2.gif" alt="" style="border-style: solid; border-color: black; border-width: thin; height:100%">
-          </div>
+        <div class="tm-page-col-center">
+          <img src="img/WayFASTER.gif" alt="" style="border-style: solid; border-color: black; border-width: thin; width:100%">
+
         </div>
       </div>
 
@@ -166,30 +159,20 @@ https://templatemo.com/tm-532-next-level
         <div class="col-12 tm-page-cols-container tm-pt-8">
           <div class="tm-page-col-left">
             <h2 class="tm-text-secondary tm-mb-5">
-              WayFAST Overview
+              WayFASTER Overview
             </h2>
             <div style="margin:0 auto; text-align:justify">
-              <em>WayFAST is a modular architecture. In our method, images are used to
-                predict a local traversability map, which is used to generate a
-                cost function for the model predictive control (MPC) block.
-                MPC generates locally optimal goal-oriented trajectories of
-                good traction that avoid obstacles.
+              <em>WayFASTER is a modular architecture. In our method, a sequence of images are used to
+                predict a local traversability map in the bird's-eye-view. The traverasbility map is
+                used by a cost function for the model predictive control (MPC) block.
+                The controller generates locally optimal goal-oriented trajectories of
+                good traction that can safely guide the robot.
               </em>
             </div>
-            <br/>
-            <div style="margin:0 auto; text-align:justify">
-              <em>To drive the robot on a safe path to reach the goal location,
-                we formulate a nonlinear model predictive controller
-                (NMPC) that leverages convolutional network traversability prediction.
-                A kinodynamic model is used to predict the robot<span>&#39;</span>s states while network
-                output is used to predict terrain traversability.
-              </em>
-            </div>
-            </p>
           </div>
           <div class="tm-page-col-right">
             <div class="img-place">
-              <img src="img/wayfast_schematic.png" alt="Schematic" style="width:100%">
+              <img src="img/wayfaster_diagram.png" alt="Schematic" style="width:100%">
             </div>
           </div>
         </div>
